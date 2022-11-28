@@ -1,0 +1,287 @@
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TheMethod.csprojAssemblyReference.cache
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TheMethod.csproj.GenerateResource.cache
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CopyComplete
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+C:\Users\musta\Desktop\The Method - C# Project\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\obj\Debug\TheMethod.csprojAssemblyReference.cache
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.GenerateResource.cache
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CopyComplete
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\System.IO.Compression.dll
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\taglib-sharp.dll
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.ResolveComReference.cache
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\TheMethod.csprojAssemblyReference.cache
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.ResolveComReference.cache
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.GenerateResource.cache
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\System.IO.Compression.dll
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\taglib-sharp.dll
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\The Method - C# Project\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CopyComplete
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\System.IO.Compression.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\taglib-sharp.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\TheMethod.csprojAssemblyReference.cache
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.ResolveComReference.cache
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.GenerateResource.cache
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CopyComplete
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.About.resources
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Settings.resources
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.About.resources
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Settings.resources
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\bin\Debug\System.IO.Compression.dll
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\bin\Debug\taglib-sharp.dll
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\obj\Debug\TheMethod.csprojAssemblyReference.cache
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\obj\Debug\TheMethod.csproj.ResolveComReference.cache
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.About.resources
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Settings.resources
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\obj\Debug\TheMethod.csproj.GenerateResource.cache
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CopyComplete
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\musta\Desktop\ProjectFirst Commit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.AppContext.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.Console.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.IO.Compression.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.IO.FileSystem.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.Net.Http.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.Net.Sockets.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\taglib-sharp.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\obj\Debug\TheMethod.csprojAssemblyReference.cache
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\obj\Debug\TheMethod.csproj.ResolveComReference.cache
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.About.resources
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Settings.resources
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\obj\Debug\TheMethod.csproj.GenerateResource.cache
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CopyComplete
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\musta\Desktop\ProjectSecondCommit\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.IO.Compression.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\taglib-sharp.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\obj\Debug\TheMethod.csprojAssemblyReference.cache
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\obj\Debug\TheMethod.csproj.ResolveComReference.cache
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.About.resources
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Settings.resources
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\obj\Debug\TheMethod.csproj.GenerateResource.cache
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CopyComplete
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.AppContext.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.Console.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.IO.FileSystem.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.Net.Http.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.Net.Sockets.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\musta\Desktop\ProjectTHirdCommit FInal\WindowsFormsApp1\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.AppContext.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.Console.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.IO.Compression.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.IO.FileSystem.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.Net.Http.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.Net.Sockets.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\taglib-sharp.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\obj\Debug\TheMethod.csprojAssemblyReference.cache
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\obj\Debug\TheMethod.csproj.ResolveComReference.cache
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.About.resources
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Settings.resources
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\obj\Debug\TheMethod.csproj.GenerateResource.cache
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CopyComplete
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\musta\Desktop\ProjectBackup\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.AppContext.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.Console.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.IO.Compression.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.IO.FileSystem.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.Net.Http.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.Net.Sockets.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\taglib-sharp.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\obj\Debug\TheMethod.csprojAssemblyReference.cache
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\obj\Debug\Interop.WMPLib.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.ResolveComReference.cache
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.About.resources
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MainForm.resources
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Settings.resources
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.GenerateResource.cache
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe.licenses
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CoreCompileInputs.cache
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\obj\Debug\TheMethod.csproj.CopyComplete
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\musta\Desktop\Project\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\obj\Debug\TheMethod_MusicPlayer.Properties.Resources.resources
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\obj\Debug\TheMethod_MusicPlayer.exe.licenses
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\TheMethod_MusicPlayer.exe.config
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\TheMethod_MusicPlayer.exe
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\bin\Debug\TheMethod_MusicPlayer.pdb
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\obj\Debug\TheMethod_MusicPlayer.exe
+C:\Users\musta\Desktop\The Method - C# Project\Project\WindowsFormsApp1\obj\Debug\TheMethod_MusicPlayer.pdb
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\TheMethod_MusicPlayer.exe.config
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\TheMethod_MusicPlayer.exe
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\bin\Debug\TheMethod_MusicPlayer.pdb
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\TheMethod_MusicPlayer.Properties.Resources.resources
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\TheMethod_MusicPlayer.exe.licenses
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\TheMethod_MusicPlayer.exe
+C:\Users\musta\Desktop\201-The-Method_Music-Player\Project\WindowsFormsApp1\obj\Debug\TheMethod_MusicPlayer.pdb
