@@ -11,6 +11,7 @@ namespace WindowsFormsApp1
     public partial class MainForm : Form
     {
         // Resources
+        string filepath = "data.txt";
         Icon PlayIcon = new Icon(@"..\..\Resources\Playbutton_White.ico");
         Icon PauseIcon = new Icon(@"..\..\Resources\Pausebutton_WhiteBlack1.ico");
         Icon FavStar = new Icon(@"..\..\Resources\FavStar1.ico");
@@ -48,6 +49,9 @@ namespace WindowsFormsApp1
             Songs_openFileDialog.DefaultExt = "mp3";
             Songs_openFileDialog.Filter = "MP3 Files (*.mp3)|*.mp3";
             Songs_openFileDialog.Multiselect = true;
+
+            // Read record on startup
+            readRecord(filepath);
         }
 
         // Add Song Picture Function
@@ -108,6 +112,7 @@ namespace WindowsFormsApp1
         {
             this.Close();
         }
+
         //Minimize Form
         private void PicBox_Minimize_Click(object sender, EventArgs e)
         {
@@ -124,8 +129,120 @@ namespace WindowsFormsApp1
             }
         }
 
+        //Add Record to CSV File 
+        public static void addRecord(int id, string path, string title, string artist, string genre, string duration, string filepath)
+        {
+            try
+            {
+                using (StreamWriter file = new StreamWriter(filepath, true))
+                {
+                    file.WriteLine(id + "," + path + "," + title + "," + artist + "," + genre + "," + duration);
+                    file.Close();
+                }
+            }
+            catch(Exception ex)
+            {
+                throw new ApplicationException("Error!", ex);
+            }
+        }
+
+        // Read Record from CSV File
+        public void readRecord(string filepath)
+        {
+            StreamReader reader = null;
+            if (File.Exists(filepath))
+            {
+                reader = new StreamReader(File.OpenRead(filepath));
+                while (!reader.EndOfStream) // Read SongsGrid data and from the file and add it to the SongsGrid
+                {
+                    var line = reader.ReadLine();
+                    if (line.Contains("Favourites")) break;
+                    var values = line.Split(',');
+                    path.Add(values[1]);
+                    SongsGrid.Rows.Add(Convert.ToInt32(values[0]), values[1], values[2], values[3], values[4], values[5]);
+                    if (values[6] == "1") // If star is filled
+                        FavGrid1.Rows.Add(FavStarFilled, PlayIcon);
+                    else
+                        FavGrid1.Rows.Add(FavStar, PlayIcon);
+                    DeleteGrid.Rows.Add(TrashCan);
+                }
+                while (!reader.EndOfStream) // Read Favourites data from the file and add it to the FavouritesGrid
+                {
+                    var line = reader.ReadLine();
+                    string [] values = line.Split(',');
+                    FavouritesGrid.Rows.Add(Convert.ToInt32(values[0]), values[1], values[2], values[3], values[4], values[5]);
+                    FavGrid2.Rows.Add(FavStarFilled, PlayIcon);
+                }
+                //Hide No Songs Labels
+                NoSongs2.Visible = false;
+                NoSongs1_1.Visible = false;
+
+                // Stop Player
+                Player.Ctlcontrols.stop();
+
+                FavGrid1.ClearSelection(); // Clear Selection on FavGrid1
+                DeleteGrid.ClearSelection(); // Clear Selection on DeleteGrid
+
+                //Add Song Cover, Song Name and Artist to Bottom Panel
+                AddSongPic(BottomPanelPicBox, SongsGrid.SelectedRows[0].Index);
+                SongAndArtist(SongTitle2, Artist2, SongsGrid.SelectedRows[0].Index);
+
+                // Add Song Cover, Song Name, Artist and Genre to Now Playing
+                SongArtistAndGenre(SongTitle1_2, Artist1_2, Genre1_2, SongsGrid.SelectedRows[0].Index);
+                AddSongPic(SongCoverPicBox, SongsGrid.SelectedRows[0].Index);
+
+                reader.Dispose();
+            } 
+        }
+
+        // Add Record to CSV file after closing the application 
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (File.Exists(filepath))
+            {
+                File.Delete(filepath);
+                using (StreamWriter file = new StreamWriter(filepath, true))
+                {
+                    string x;
+                    for(int i=0; i<SongsGrid.RowCount; i++)
+                    {
+                        if (FavGrid1[0, i].Value == FavStarFilled) x = "1";
+                        else x = "0";
+
+                        file.WriteLine(SongsGrid[0, i].Value + "," +
+                                       SongsGrid[1, i].Value + "," +
+                                       SongsGrid[2, i].Value + "," +
+                                       SongsGrid[3, i].Value + "," +
+                                       SongsGrid[4, i].Value + "," +
+                                       SongsGrid[5, i].Value + "," +
+                                       x
+                                      );
+                    }
+                    file.Close();
+                }
+            }
+            if(File.Exists(filepath) && FavouritesGrid.RowCount > 0)
+            {
+                using (StreamWriter file = new StreamWriter(filepath, true))
+                {
+                    file.WriteLine("Favourites");
+                    for (int i = 0; i < FavouritesGrid.RowCount; i++)
+                    {
+                        file.WriteLine(FavouritesGrid[0, i].Value + "," +
+                                       FavouritesGrid[1, i].Value + "," +
+                                       FavouritesGrid[2, i].Value + "," +
+                                       FavouritesGrid[3, i].Value + "," +
+                                       FavouritesGrid[4, i].Value + "," +
+                                       FavouritesGrid[5, i].Value
+                                      );
+                    }
+                    file.Close();
+                }
+            }
+        }
+
         // <-------------------   Songs Page   ------------------->
-        
+
         // List to import songs
         List<string> path = new List<string>();
 
@@ -136,8 +253,12 @@ namespace WindowsFormsApp1
             if (Songs_openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
             {
                 int z;
+
+                //Hide No Songs Labels
                 NoSongs2.Visible = false;
-                if(path.Count == 0) // First Import
+                NoSongs1_1.Visible = false;
+
+                if (path.Count == 0) // First Import
                     path.AddRange(Songs_openFileDialog.FileNames);
                 else // Other Imports
                 {
@@ -156,12 +277,17 @@ namespace WindowsFormsApp1
                             path.Add(Songs_openFileDialog.FileNames[i]);  
                     }
                 }
-                while(SongsGrid.Rows.Count > 0)
+                
+                while (SongsGrid.Rows.Count > 0)
                 {
                     SongsGrid.Rows.Remove(SongsGrid.Rows[0]);
                     FavGrid1.Rows.Remove(FavGrid1.Rows[0]);
                     DeleteGrid.Rows.Remove(DeleteGrid.Rows[0]);
                 }
+
+                if(File.Exists(filepath))
+                    File.Delete(filepath);
+
                 for (int x = 0; x < path.Count; x++)
                 {
                     var file = TagLib.File.Create(path[x]);
@@ -174,25 +300,14 @@ namespace WindowsFormsApp1
                     SongsGrid.Rows.Add(x, path[x], title, artist, genre, duration);
                     FavGrid1.Rows.Add(FavStar, PlayIcon);
                     DeleteGrid.Rows.Add(TrashCan);
+                    // Add Record to CSV File
+                    addRecord(x, path[x], title, artist, genre, duration, filepath);
                 }
-
-                //Hide No Songs Label
-                NoSongs1_1.Visible = false;
 
                 FavGrid1.ClearSelection(); // Clear Selection on FavGrid1
                 DeleteGrid.ClearSelection(); // Clear Selection on DeleteGrid
-
-                //Show ScrollBar
-                if (SongsGrid.RowCount >= 9)
-                    ScrollBarSongs.Visible = true;
-
-                //Scroll Bar Settings
-                ScrollBarSongs.Maximum = SongsGrid.RowCount;
-                ScrollBarSongs.LargeChange = SongsGrid.DisplayedRowCount(true);
-                ScrollBarSongs.SmallChange = 1;
-
-                //Link WindowMediaPlayer To first song
-                Player.URL = path[0];
+                
+                // Stop Player
                 Player.Ctlcontrols.stop();
 
                 //Add Song Cover, Song Name and Artist to Bottom Panel
@@ -202,22 +317,6 @@ namespace WindowsFormsApp1
                 // Add Song Cover, Song Name, Artist and Genre to Now Playing
                 SongArtistAndGenre(SongTitle1_2, Artist1_2, Genre1_2, SongsGrid.SelectedRows[0].Index);
                 AddSongPic(SongCoverPicBox, SongsGrid.SelectedRows[0].Index);
-            }
-        }
-
-        //Syncing Scroll Bar with Songs DataGridView
-        private void dataGridView1_Scroll(object sender, ScrollEventArgs e)
-        {
-            if (e.ScrollOrientation == ScrollOrientation.VerticalScroll)
-                ScrollBarSongs.Value = e.NewValue;
-        }
-        private void ScrollBar_Scroll(object sender, Bunifu.UI.WinForms.BunifuVScrollBar.ScrollEventArgs e)
-        {
-            if (e.Value < SongsGrid.RowCount)
-            {
-                SongsGrid.FirstDisplayedScrollingRowIndex = e.Value;
-                FavGrid1.FirstDisplayedScrollingRowIndex = e.Value;
-                DeleteGrid.FirstDisplayedScrollingRowIndex = e.Value;
             }
         }
 
@@ -278,7 +377,7 @@ namespace WindowsFormsApp1
 
             for (int i = 0; i < w; i++)
             {
-                if (x[0, x.SelectedRows[0].Index].Value == y[0, i].Value)
+                if (x[0, x.SelectedRows[0].Index].Value.ToString() == y[0, i].Value.ToString())
                 {
                     z1[1, i].Value = z2[1, x.SelectedRows[0].Index].Value;
                     y.Rows[i].Selected = true;
@@ -330,7 +429,7 @@ namespace WindowsFormsApp1
                 {
                     for (int x = 0; x < FavouritesGrid.RowCount; x++)
                     {
-                        if (FavouritesGrid[0, x].Value == SongsGrid[0, e.RowIndex].Value)
+                        if (FavouritesGrid[0, x].Value.ToString() == SongsGrid[0, e.RowIndex].Value.ToString())
                         {
                             FavouritesGrid.Rows.RemoveAt(x);
                             FavGrid2.Rows.RemoveAt(x);
@@ -352,11 +451,12 @@ namespace WindowsFormsApp1
         // DeleteGrid Functionality
         private void DeleteGrid_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            // Syncing Deletion between SongsGrid and Favourites Grid
             if (FavouritesGrid.RowCount > 0)
             {
                 for (int i = 0; i < FavouritesGrid.RowCount; i++)
                 {
-                    if (SongsGrid[0, e.RowIndex].Value == FavouritesGrid[0, i].Value)
+                    if (SongsGrid[0, e.RowIndex].Value.ToString() == FavouritesGrid[0, i].Value.ToString())
                     {
                         FavouritesGrid.Rows.RemoveAt(i);
                         FavGrid2.Rows.RemoveAt(i);
@@ -370,6 +470,7 @@ namespace WindowsFormsApp1
             else if (e.RowIndex == SongsGrid.SelectedRows[0].Index && SongsGrid.RowCount > 1)
                 SongsGrid.Rows[SongsGrid.SelectedRows[0].Index + 1].Selected = true;
 
+            // Deleting Songs from SongsGrid
             SongsGrid.Rows.RemoveAt(e.RowIndex);
             FavGrid1.Rows.RemoveAt(e.RowIndex);
             DeleteGrid.Rows.RemoveAt(e.RowIndex);
@@ -378,8 +479,11 @@ namespace WindowsFormsApp1
             DeleteGrid.ClearSelection();
             FavGrid1.ClearSelection();
 
+            // Reset all labels after clearing the list and deleting the record file
             if (SongsGrid.RowCount == 0)
             {
+                if (File.Exists(filepath))
+                    File.Delete(filepath);
                 Player.Ctlcontrols.stop();
                 NoSongs2.Visible = true;
                 SongCoverPicBox.Image = Image.FromFile(Robot);
@@ -560,7 +664,6 @@ namespace WindowsFormsApp1
             Player.settings.volume = SoundSlider.Value;
         }
 
-
         // <-------------------   Favourites Page   ------------------->
 
         // Favourites DataGridView Functionality
@@ -589,7 +692,7 @@ namespace WindowsFormsApp1
                     if (FavouritesGrid.SelectedRows[0].Index > 0)
                         FavouritesGrid.Rows[FavouritesGrid.SelectedRows[0].Index - 1].Selected = true;
                 }
-                FavGrid1[0, (int)FavouritesGrid[0, e.RowIndex].Value].Value = FavStar;
+                FavGrid1[0, (int)FavouritesGrid[0, e.RowIndex].Value].Value = FavStar; /************/
                 FavouritesGrid.Rows.RemoveAt(e.RowIndex);
                 FavGrid2.Rows.RemoveAt(e.RowIndex);
                 if (FavouritesGrid.RowCount == 0)
@@ -622,21 +725,6 @@ namespace WindowsFormsApp1
             style2.BackColor = Color.Black;
             if (e.RowIndex > -1)
                 FavGrid2.Rows[e.RowIndex].Cells[e.ColumnIndex].Style = style2;
-        }
-
-        //Syncing Scroll Bar with Favourites DataGridView
-        private void FavouritesGrid_Scroll(object sender, ScrollEventArgs e)
-        {
-            if (e.ScrollOrientation == ScrollOrientation.VerticalScroll)
-                ScrollBarFavourites.Value = e.NewValue;
-        }
-        private void ScrollBarFavourites_Scroll(object sender, Bunifu.UI.WinForms.BunifuVScrollBar.ScrollEventArgs e)
-        {
-            if (e.Value < FavouritesGrid.RowCount)
-            {
-                FavouritesGrid.FirstDisplayedScrollingRowIndex = e.Value;
-                FavGrid2.FirstDisplayedScrollingRowIndex = e.Value;
-            }
         }
 
         // <-------------------   LeftPanel Page Navigation Buttons   ------------------->
@@ -676,17 +764,17 @@ namespace WindowsFormsApp1
             FavGrid2.Visible = false;
             ScrollBarFavourites.Visible = false;
 
+            // Scroll Bar Visibility
+            if (SongsGrid.RowCount >= 9)
+                ScrollBarSongs.Visible = true;
+            else
+                ScrollBarSongs.Visible = false;
+
             //No Songs Label Visibilty
             if (SongsGrid.RowCount > 0 && SongsGrid.Visible == true)
                 NoSongs2.Visible = false;
             else
                 NoSongs2.Visible = true;
-
-            //Scroll Bar Visibility
-            if (SongsGrid.RowCount >= 9)
-                ScrollBarSongs.Visible = true;
-            else
-                ScrollBarSongs.Visible = false;
         }
 
         // Favourites Button
@@ -710,17 +798,17 @@ namespace WindowsFormsApp1
             DeleteGrid.Visible = false;
             ScrollBarSongs.Visible = false;
 
-            //No Songs Label Visibility
-            if (FavouritesGrid.RowCount > 0 && FavouritesGrid.Visible == true)
-                NoSongs2.Visible = false;
-            else
-                NoSongs2.Visible = true;
-
-            //Scroll Bar Visibility
+            // Scroll Bar Visibilty
             if (FavouritesGrid.RowCount >= 9)
                 ScrollBarFavourites.Visible = true;
             else
                 ScrollBarFavourites.Visible = false;
+            
+            //No Songs Label Visibility
+            if (FavouritesGrid.RowCount > 0 && FavouritesGrid.Visible == true)
+            NoSongs2.Visible = false;
+            else
+                NoSongs2.Visible = true;
 
             //Link WindowMediaPlayer To first song In Favourites
             if (FavouritesGrid.RowCount > 0 && Player.playState == WMPLib.WMPPlayState.wmppsStopped)
@@ -730,14 +818,6 @@ namespace WindowsFormsApp1
 
             //Clear Selection on FavGrid2 Grid
             FavGrid2.ClearSelection();
-
-            //Scroll Bar Settings
-            if (FavouritesGrid.RowCount > 0)
-            {
-                ScrollBarFavourites.Maximum = FavouritesGrid.RowCount;
-                ScrollBarFavourites.LargeChange = FavouritesGrid.DisplayedRowCount(true);
-                ScrollBarFavourites.SmallChange = 1;
-            }
         }
 
         // Settings and About Buttons
@@ -752,6 +832,95 @@ namespace WindowsFormsApp1
             btn1_NowPlaying.PerformClick();
             btn1_NowPlaying.Focus();
             Program.about.ShowDialog();
+        }
+
+        // Scroll Bar Settings for both Songs Grid And Favourites Grid
+
+        //Syncing Scroll Bar with Songs DataGridView
+        private void dataGridView1_Scroll(object sender, ScrollEventArgs e)
+        {
+            if (e.ScrollOrientation == ScrollOrientation.VerticalScroll)
+                ScrollBarSongs.Value = e.NewValue;
+        }
+        private void ScrollBar_Scroll(object sender, Bunifu.UI.WinForms.BunifuVScrollBar.ScrollEventArgs e)
+        {
+            if (e.Value < SongsGrid.RowCount-1)
+            {
+                SongsGrid.FirstDisplayedScrollingRowIndex = e.Value;
+                FavGrid1.FirstDisplayedScrollingRowIndex = e.Value;
+                DeleteGrid.FirstDisplayedScrollingRowIndex = e.Value;
+            }
+        }
+
+        //Syncing Scroll Bar with Favourites DataGridView
+        private void FavouritesGrid_Scroll(object sender, ScrollEventArgs e)
+        {
+            if (e.ScrollOrientation == ScrollOrientation.VerticalScroll)
+                ScrollBarFavourites.Value = e.NewValue;
+        }
+        private void ScrollBarFavourites_Scroll(object sender, Bunifu.UI.WinForms.BunifuVScrollBar.ScrollEventArgs e)
+        {
+            if (e.Value < FavouritesGrid.RowCount)
+            {
+                FavouritesGrid.FirstDisplayedScrollingRowIndex = e.Value;
+                FavGrid2.FirstDisplayedScrollingRowIndex = e.Value;
+            }
+        }
+
+        private void SongsGrid_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
+        {
+            //Show ScrollBar
+            if (SongsGrid.RowCount >= 9)
+            {
+                ScrollBarSongs.Visible = true;
+
+                //Scroll Bar Settings
+                ScrollBarSongs.Maximum = SongsGrid.RowCount;
+                ScrollBarSongs.LargeChange = SongsGrid.DisplayedRowCount(true);
+                ScrollBarSongs.SmallChange = 1;
+            }
+        }
+
+        private void SongsGrid_RowsRemoved(object sender, DataGridViewRowsRemovedEventArgs e)
+        {
+            //Hide ScrollBar
+            if (SongsGrid.RowCount < 9)
+                ScrollBarSongs.Visible = false;
+            else
+            {
+                //Scroll Bar Settings
+                ScrollBarSongs.Maximum = SongsGrid.RowCount;
+                ScrollBarSongs.LargeChange = SongsGrid.DisplayedRowCount(true);
+                ScrollBarSongs.SmallChange = 1;
+            }
+        }
+
+        private void FavouritesGrid_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
+        {
+            //Show ScrollBar
+            if (FavouritesGrid.RowCount >= 9)
+            {
+                ScrollBarSongs.Visible = true;
+
+                //Scroll Bar Settings
+                ScrollBarFavourites.Maximum = FavouritesGrid.RowCount;
+                ScrollBarFavourites.LargeChange = FavouritesGrid.DisplayedRowCount(true);
+                ScrollBarFavourites.SmallChange = 1;
+            }
+        }
+
+        private void FavouritesGrid_RowsRemoved(object sender, DataGridViewRowsRemovedEventArgs e)
+        {
+            //Hide ScrollBar
+            if (FavouritesGrid.RowCount < 9)
+                ScrollBarFavourites.Visible = false;
+            else
+            {
+                //Scroll Bar Settings
+                ScrollBarFavourites.Maximum = FavouritesGrid.RowCount;
+                ScrollBarFavourites.LargeChange = FavouritesGrid.DisplayedRowCount(true);
+                ScrollBarFavourites.SmallChange = 1;
+            }
         }
     }
 }

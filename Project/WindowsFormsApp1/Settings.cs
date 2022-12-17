@@ -48,8 +48,8 @@ namespace WindowsFormsApp1
             // <---- About ---->
             Program.about.Title.Text = "About";
             Program.about.lbl_MusicPlayer.Text = "Music Player";
-            Program.about.lbl_Version.Text = "Version 1.0";
-            Program.about.lbl_Copyrights.Text = "© The Method. All rights reserved.";
+            Program.about.lbl_Version.Text = "Version 1.0.1-beta";
+            Program.about.lbl_Copyrights.Text = "© Mustafa Zeydani. All rights reserved.";
 
             // <---- Main Form ---->
 
@@ -73,7 +73,7 @@ namespace WindowsFormsApp1
             if (Program.mainform.SongsGrid == null || Program.mainform.SongsGrid.Rows.Count == 0)
             {
                 // Grey Labels
-                Program.mainform.SongTitle1_2.Text = "Song Name";
+                Program.mainform.SongTitle1_2.Text = "Song Title";
                 Program.mainform.Artist1_2.Text = "Artist";
                 Program.mainform.Genre1_2.Text = "Genre";
 
@@ -124,8 +124,8 @@ namespace WindowsFormsApp1
             // <---- About ---->
             Program.about.Title.Text = "Hakkında";
             Program.about.lbl_MusicPlayer.Text = "Müzik Çalar";
-            Program.about.lbl_Version.Text = "Versiyon 1.0";
-            Program.about.lbl_Copyrights.Text = "© The Method. Tüm hakları saklıdır.";
+            Program.about.lbl_Version.Text = "Versiyon 1.0.1-beta";
+            Program.about.lbl_Copyrights.Text = "© Mustafa Zeydani. Tüm hakları saklıdır.";
 
             // <---- Main Form ---->
 

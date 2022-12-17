@@ -1359,6 +1359,8 @@
             this.SongsGrid.Size = new System.Drawing.Size(722, 410);
             this.SongsGrid.TabIndex = 1;
             this.SongsGrid.Visible = false;
+            this.SongsGrid.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.SongsGrid_RowsAdded);
+            this.SongsGrid.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.SongsGrid_RowsRemoved);
             this.SongsGrid.Scroll += new System.Windows.Forms.ScrollEventHandler(this.dataGridView1_Scroll);
             this.SongsGrid.SelectionChanged += new System.EventHandler(this.SongsGrid_SelectionChanged);
             // 
@@ -1476,6 +1478,8 @@
             this.FavouritesGrid.Size = new System.Drawing.Size(767, 410);
             this.FavouritesGrid.TabIndex = 5;
             this.FavouritesGrid.Visible = false;
+            this.FavouritesGrid.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.FavouritesGrid_RowsAdded);
+            this.FavouritesGrid.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.FavouritesGrid_RowsRemoved);
             this.FavouritesGrid.Scroll += new System.Windows.Forms.ScrollEventHandler(this.FavouritesGrid_Scroll);
             this.FavouritesGrid.SelectionChanged += new System.EventHandler(this.FavouritesGrid_SelectionChanged);
             // 
@@ -1868,6 +1872,7 @@
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "The Method Music Player";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.Resize += new System.EventHandler(this.MainForm_Resize);
             this.LeftPanel.ResumeLayout(false);

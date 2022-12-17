@@ -1,7 +1,7 @@
 # The Method Music Player
 An offline music player application for all your needs!
 
-[![Release](https://img.shields.io/github/v/release/mustafazeydani/The-Method-Music-Player?color=rgb%28240%2C84%2C84%29)](https://github.com/mustafazeydani/The-Method-Music-Player/releases) [![TR](https://img.shields.io/badge/lang-TR-green.svg)](https://github.com/Iskenderun-Technical-University/201-The-Method_Music-Player/blob/main/README-TR.md)
+[![Release](https://img.shields.io/github/v/release/mustafazeydani/The-Method-Music-Player?color=rgb%28240%2C84%2C84%29)](https://github.com/mustafazeydani/The-Method-Music-Player/releases) [![TR](https://img.shields.io/badge/lang-TR-green.svg)](https://github.com/mustafazeydani/The-Method-Music-Player/blob/main/README-TR.md)
 
 ![Logo](https://i.ibb.co/58xNtpx/Untitled-1.png)
 

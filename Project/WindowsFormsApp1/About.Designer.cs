@@ -122,7 +122,7 @@
             this.lbl_Version.Name = "lbl_Version";
             this.lbl_Version.Size = new System.Drawing.Size(162, 24);
             this.lbl_Version.TabIndex = 9;
-            this.lbl_Version.Text = "Version 1.0.0-beta";
+            this.lbl_Version.Text = "Version 1.0.1-beta";
             // 
             // lbl_Copyrights
             // 

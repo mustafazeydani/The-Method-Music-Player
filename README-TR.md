@@ -1,7 +1,7 @@
 # The Method Müzik Çalar
 Tüm ihtiyaçların için çevrimdışı bir müzik çalar uygulaması!
 
-[![Release](https://img.shields.io/github/v/release/mustafazeydani/The-Method-Music-Player?color=rgb%28240%2C84%2C84%29)](https://github.com/mustafazeydani/The-Method-Music-Player/releases) [![EN](https://img.shields.io/badge/lang-EN-blue.svg)](https://github.com/Iskenderun-Technical-University/201-The-Method_Music-Player)
+[![Release](https://img.shields.io/github/v/release/mustafazeydani/The-Method-Music-Player?color=rgb%28240%2C84%2C84%29)](https://github.com/mustafazeydani/The-Method-Music-Player/releases) [![EN](https://img.shields.io/badge/lang-EN-blue.svg)](https://github.com/mustafazeydani/The-Method-Music-Player)
 
 ![Logo](https://i.ibb.co/jytp86g/tr.png)
 
